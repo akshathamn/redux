@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import Newfile from './Newfile';
+// import Oldfile from './Oldfile';
+// import Trial from './Trial';
+// import Add from './Task1/Add';
+// import Ageupdown from './Component/Ageupdown';
+import Task2 from './Component/Task2';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+  <Router>
+    <Switch>
+      {/* <Route exact path='/Newfile' component={Newfile}></Route>
+      <Route exact path='/Oldfile' component={Oldfile}></Route>
+      <Route exact path='/Trial' component={Trial}></Route>
+      <Route exact path='/Add' component={Add}></Route> */}
+      {/* <Route exact path='/Ageupdown' component={Ageupdown}></Route> */}
+      <Route exact path='/Task2' component={Task2}></Route>
+
+    </Switch>
+  </Router>
+  </div>
   );
 }
-
 export default App;
+
+
+
+
+
+
+
+
