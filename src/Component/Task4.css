@@ -1,0 +1,44 @@
+#center1
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 224px 188px;
+    font-size: 25px;
+}
+button
+{
+    background-color: antiquewhite;
+}
+.height1
+{
+    height: 30px;
+    width: 300px;
+    margin-left: 15px;
+}
+.height2
+{
+    height: 30px;
+    width: 300px;
+    margin-left: 35px;
+}
+.height3
+{
+    height: 30px;
+    width: 300px;
+    margin-left: 35px;
+}
+.height4
+{
+    height: 30px;
+    width: 300px;
+    margin-left: 48px;
+}
+.align4
+{
+    margin-left: -59px;
+}
+/* .align1
+{
+    margin-left: -32px;
+} */
